@@ -13,3 +13,9 @@ https://github.com/user-attachments/assets/1243bea2-5d2c-4cd7-a762-9bc12f142ce1
 
 
 
+
+https://github.com/user-attachments/assets/c5ee289e-b1a9-4e24-af00-9654e85ff6d1
+
+
+我修改xdc file 將output 從前四個顯示器 換到後四個顯示器
+結果就是正確的了
