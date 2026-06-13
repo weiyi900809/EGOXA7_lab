@@ -18,7 +18,12 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
+/*
+// Core logic: On reset, initialize the leftmost position to high.
+// On each clk_bps pulse, shift the active bit left or right based on dir.
+// Wrap around to the opposite side upon reaching the boundary.
 
+*/
 
 module flash_led_ctl(
  	 	input clk,
