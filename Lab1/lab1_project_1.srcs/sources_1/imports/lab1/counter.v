@@ -19,7 +19,23 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+/*
+The onboard clock of the EGO-XA7 is 100 MHz.
 
+10000 * 10001 * 10ns = 1,000,100,000ns  = 1.0001 秒。
+
+
+*/
+
+/*
+
+// cnt_first increments cnt_second every 10,001 clk cycles.
+// clk_bps goes high when cnt_second == 14'd10000.
+// From reset to the 1st pulse, it takes 10,000 'first-layer roll-over' events.
+// Hence, the 1st pulse is asserted after 10,001 × 10,000 clk cycles.
+
+
+*/
 module counter(
         input clk,
  	 	input rst,
